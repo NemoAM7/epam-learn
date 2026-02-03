@@ -3,12 +3,12 @@ using namespace std;
 static float g_balance = 0.0;
 
 // Dummy function for pin validation
-bool validatePin(int pin) {
+bool validatePin(int pin) { 
 	return true;
 }
 
 // Deposits positive amount to the global balance
-void deposit(float amount){ 
+void deposit(float amount){
 	if (amount <= 0) {
 		cout << "Amount should be greater than zero\n";
 		return;
